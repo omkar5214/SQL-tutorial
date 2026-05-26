@@ -1,2 +1,2 @@
 # SQL-tutorial
-i am uploading basic SQL code of learning
+i am uploading basic SQL code for my learning
