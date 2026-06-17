@@ -1,2 +1,0 @@
-#inner join (default join)
-select * from employee_demographics inner join employee_salary on employee_demographics.employee_id = employee_salary.employee_id;
