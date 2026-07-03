@@ -19,3 +19,14 @@ end $$
 delimiter ;# space between delimiter and ; is very imp 
 
 call large_salaries3();
+
+#parameter
+delimiter $$
+CREATE procedure large_salaries7(employee_iid integer)#this is a creation of row 
+begin
+	select salary from employee_salary
+	where employee_id = employee_iid;
+end $$
+delimiter ;# space between delimiter and ; is very imp 
+
+call large_salaries7(1);
