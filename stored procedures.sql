@@ -30,3 +30,13 @@ end $$
 delimiter ;# space between delimiter and ; is very imp 
 
 call large_salaries7(1);
+
+#right click on stored procedure and create a nee stored procedure
+CREATE DEFINER=`root`@`localhost` PROCEDURE `new_procedure5`()
+BEGIN
+	select * from employee_salary
+	where salary >= 50000;
+    select * from employee_salary
+    where salary >= 10000;
+END
+#then click apply then again click apply then our new table in stored proceure is created
