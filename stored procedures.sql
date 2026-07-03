@@ -31,7 +31,7 @@ delimiter ;# space between delimiter and ; is very imp
 
 call large_salaries7(1);
 
-#right click on stored procedure and create a nee stored procedure
+#First right click on stored procedure table and create a nee stored procedure table
 CREATE DEFINER=`root`@`localhost` PROCEDURE `new_procedure5`()
 BEGIN
 	select * from employee_salary
