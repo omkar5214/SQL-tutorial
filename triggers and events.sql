@@ -15,3 +15,4 @@ end $$
 delimiter ;
 # it does n't it own little section in the sechmas chart but can be in inside a tables click arrow button and u will find it
 insert into employee_salary (employee_id, first_name, last_name, occupation, salary, dept_id)
+values(15, "jon", "jin", "actor", "50000", null),
