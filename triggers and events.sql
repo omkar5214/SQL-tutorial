@@ -1,4 +1,5 @@
 -- triggers and event
+#trigger
 # if we update in one table and forgot in other this trigger can help us to update in updating in other tables
 select * from employee_demographics;
 
@@ -17,3 +18,5 @@ delimiter ;
 insert into employee_salary (employee_id, first_name, last_name, occupation, salary, dept_id)
 values(15, "jon", "jin", "actor", "50000", null),
 (14, "lu", "lin", "director", "60000", null);
+
+#Events
