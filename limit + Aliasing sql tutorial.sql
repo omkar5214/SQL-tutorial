@@ -1,5 +1,5 @@
 #...LIMIT AND ALIASING
- #limit- adding limit means limit number of output rows 
+ #limit- adding limit means limit number of output rows from table
 select gender, avg(age) from employee_demographics group by gender having avg(age) > 40 LIMIT 3;
 select * from employee_demographics order by age desc LIMIT 3;
 select * from employee_demographics order by age desc LIMIT 3,1; # start at position 3 and go one row after
