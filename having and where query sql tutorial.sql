@@ -1,4 +1,4 @@
-# having and where together
+# having and where clauses together
 #having clause
 select gender, avg(age) from employee_demographics group by gender having avg(age) > 40 ;
 
