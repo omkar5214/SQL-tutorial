@@ -19,4 +19,5 @@ insert into employee_salary (employee_id, first_name, last_name, occupation, sal
 values(15, "jon", "jin", "actor", "50000", null),
 (14, "lu", "lin", "director", "60000", null);
 
-#Events
+#Events its like reminder or like check if row satisfy condition
+s
