@@ -29,3 +29,6 @@ do
 begin
 	delete from employee_demographics where age >= 60;
 end $$
+delimiter ;
+
+show variables like "events%";
