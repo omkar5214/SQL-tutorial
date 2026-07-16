@@ -20,4 +20,12 @@ values(15, "jon", "jin", "actor", "50000", null),
 (14, "lu", "lin", "director", "60000", null);
 
 #Events its like reminder or like check if row satisfy condition
-s
+select * from employee_demographics;
+
+delimiter $$
+create event delete_retirees
+on schedule every 30 second
+do
+begin
+	delete from employee_demographics where age >= 60;
+end $$
