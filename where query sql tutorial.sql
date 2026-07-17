@@ -17,6 +17,7 @@ select * from employee_demographics where( birth_date > "1985-01-01" and gender 
 select * from employee_demographics where first_name like "jer";
 select * from employee_demographics where first_name like "jer__";
 select * from employee_demographics where birth_date like "1989%";
+select * from employee_demographics where birth_date like "1980%";
 
 
 
